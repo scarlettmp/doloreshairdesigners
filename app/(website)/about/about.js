@@ -6,12 +6,7 @@ import Link from "next/link";
 export default function About({ authors, settings }) {
   return (
     <Container>
-      <h1 className="text-brand-primary mb-3 mt-2 text-center text-3xl font-semibold tracking-tight dark:text-white lg:text-4xl lg:leading-snug">
-        About
-      </h1>
-      <div className="text-center">
-        <p className="text-lg">We are a small passionate team.</p>
-      </div>
+   
 
       <div className="mb-16 mt-6 grid grid-cols-3 gap-5 md:mb-32 md:mt-16 md:gap-16">
         {authors.slice(0, 3).map(author => {
@@ -38,15 +33,16 @@ export default function About({ authors, settings }) {
 
       <div className="prose mx-auto mt-14 text-center dark:prose-invert">
         <p>
-          We provide real-time connectivity to enable software
-          providers and financial institutions to build integrated
-          products for their small business customers.
+        Conveniently located in Northwest Columbus, our salon has provided professional services to women and men for the past thirty-seven years.
+Our staff are trained in all the latest hair trends including The Protein Keratin Smoothing Treatment, Balayage and Ombre.
+Dolores & Company is also offering a variety of hair extension products!
         </p>
         <p>
-          Our API infrastructure is leveraged by clients ranging from
-          lenders to corporate card providers and business forecasting
-          tools, with use cases including automatic reconciliation,
-          business dashboarding, and loan decisioning.
+        We are the only salon in Central Ohio trained in the art of color concentration.
+This procedure allows us to infuse multiple colors into the hair for a natural effect without fading.
+We also offer a unique Japanese treatment that strengthens the hair and lasts up to three months.
+Come visit our salon and see what your hair has been missing!
+
         </p>
         <p>
           <Link href="/contact">Get in touch</Link>

@@ -13,35 +13,37 @@ import { myLoader } from "@/utils/all";
 export default function Navbar(props) {
   const leftmenu = [
     {
-      label: "Home",
+      label: "Meet Delores",
       href: "/"
     },
     {
-      label: "About",
+      label: "About Us",
       href: "/about"
     },
-    {
-      label: "Contact",
-      href: "/contact"
-    }
+   
   ];
 
   const rightmenu = [
     {
-      label: "Archive",
+      label: "Contact Us",
+      href: "/contact"
+    }, 
+    {
+      label: "Image Gallery",
       href: "/archive"
-    },
-    {
-      label: "Pro Version",
-      href: "https://stablo-pro.web3templates.com/",
-      external: true,
-      badge: "new"
-    },
-    {
-      label: "Download",
-      href: "https://web3templates.com/templates/stablo-minimal-blog-website-template",
-      external: true
     }
+    
+    // {
+    //   label: "Pro Version",
+    //   href: "https://stablo-pro.web3templates.com/",
+    //   external: true,
+    //   badge: "new"
+    // },
+    // {
+    //   label: "Download",
+    //   href: "https://web3templates.com/templates/stablo-minimal-blog-website-template",
+    //   external: true
+    // }
   ];
 
   const mobilemenu = [...leftmenu, ...rightmenu];
@@ -86,7 +88,7 @@ export default function Navbar(props) {
                       />
                     ) : (
                       <span className="block text-center">
-                        Stablo
+                        DELORES HAIR DESIGNERS
                       </span>
                     )}
                   </Link>
